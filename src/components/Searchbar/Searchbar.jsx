@@ -26,6 +26,7 @@ class Searchbar extends Component {
 
           <input
             className={css.input}
+            id="myField"
             type="text"
             autoComplete="off"
             autoFocus
