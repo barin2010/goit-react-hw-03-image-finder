@@ -11,6 +11,7 @@ class Searchbar extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
+    console.log('Handling form submission with query:', this.state.query);
     this.props.onSubmit(this.state.query);
   };
 
